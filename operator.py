@@ -36,7 +36,7 @@ print(fahrenheite) """
 
 # fahrenheite to celcius
 
-fahrenheite = int(input("Enter fahrenheite: "))
-celcius = ((fahrenheite-32)*5/9)
-print(celcius)
+# fahrenheite = int(input("Enter fahrenheite: "))
+# celcius = ((fahrenheite-32)*5/9)
+# print(celcius)
 
