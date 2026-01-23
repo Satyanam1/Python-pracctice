@@ -12,8 +12,8 @@ This repository contains my personal Python learning and practice files.
   -Comparison
   -Logical
 •Ternary Operators✅
-•Conditionals Statements
+•Conditionals Statements✅
   -if
   -elif
   -else
-  
+• Strings✅  
