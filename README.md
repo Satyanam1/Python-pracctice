@@ -16,4 +16,9 @@ This repository contains my personal Python learning and practice files.
   -if
   -elif
   -else
-• Strings✅  
+• Strings✅
+• List and Tuples✅ 
+
+
+
+
