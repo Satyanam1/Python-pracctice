@@ -18,6 +18,7 @@ This repository contains my personal Python learning and practice files.
   -else
 • Strings✅
 • List and Tuples✅ 
+• Set and Dictioanry✅
 
 
 
