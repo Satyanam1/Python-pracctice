@@ -7,18 +7,19 @@ This repository contains my personal Python learning and practice files.
 •Basics of Python <br>
 •Variables✅<br>
 •Operators✅<br>
-  -Arithmetic
-  -Assignment
-  -Comparison
-  -Logical
-•Ternary Operators✅
-•Conditionals Statements✅
-  -if
-  -elif
-  -else
-• Strings✅
-• List and Tuples✅ 
-• Set and Dictioanry✅
+  -Arithmetic <br>
+  -Assignment <br>
+  -Comparison <br>
+  -Logical <br>
+•Ternary Operators✅ <br>
+•Conditionals Statements✅ <br>
+  -if <br>
+  -elif <br>
+  -else <br>
+• Strings✅ <br>
+• List and Tuples✅ <br>
+• Set and Dictioanry✅<br>
+• Range ✅
 
 
 
