@@ -19,7 +19,8 @@ This repository contains my personal Python learning and practice files.
 • Strings✅ <br>
 • List and Tuples✅ <br>
 • Set and Dictioanry✅<br>
-• Range ✅
+• Range ✅<br>
+• Loops✅<br>
 
 
 
