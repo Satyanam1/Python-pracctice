@@ -21,6 +21,7 @@ This repository contains my personal Python learning and practice files.
 • Set and Dictioanry✅<br>
 • Range ✅<br>
 • Loops✅<br>
+• Pattern <br>
 
 
 
