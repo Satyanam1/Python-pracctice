@@ -23,7 +23,7 @@
 # data=data[-1]+ data[1:-1]+ data[0]
 # print(data)
 
-# name="python"
+# name="welcome"
 # print(name[-1]+name[1:-1]+name[0])
 
 
@@ -53,7 +53,7 @@
 #     print("Not palindrome")
 
 
-# num = input("Enter: ")
+# num = input("Enter: ")   
 # rev=""
 # for i in range(len(num)-1,-1,-1):
 #     rev+=num[i]
