@@ -22,6 +22,8 @@ This repository contains my personal Python learning and practice files.
   - elif 
   - else 
 ## - Loops✅
+## Functions✅
+
 
 ## Practice 
 - Pattern Programs
