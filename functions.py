@@ -208,7 +208,7 @@ a=int(input("Enter a number: "))
 print(reduceToZero(a)) """ 
 
 # Count operation to obtain zero
-def countZero(num1,num2):
+""" def countZero(num1,num2):
     count=0
     while num1!=0 and num2!=0:
         if num1>=num2:
@@ -221,7 +221,7 @@ def countZero(num1,num2):
     return count
 a= int(input("Enter first number: "))
 b= int(input("Enter second number: "))  
-print(countZero(a,b))          
+print(countZero(a,b))           """
 
 
 
