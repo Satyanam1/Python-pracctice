@@ -23,7 +23,8 @@ This repository contains my personal Python learning and practice files.
   - else 
 ## - Loops✅
 ## Functions✅
-
+  - user defined
+  - Built-in/Predefine
 
 ## Practice 
 - Pattern Programs
