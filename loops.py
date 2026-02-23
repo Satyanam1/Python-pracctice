@@ -447,8 +447,21 @@
 # 
 #  
 
-word = "welcome to cybrom"
+""" sentence = "welcome to cybrom pvt."
+word = sentence.split()
 count =0
 for i in word:
     count+=1
-print(count)    
+print(count)     """
+
+# Fibonacci
+""" n=int(input("Enter a number: "))
+a,b=0,1
+while n>0:
+    print(a,end=" ")
+    c=a+b
+    a,b=b,c
+    n=n-1 """
+
+
+
