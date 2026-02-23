@@ -40,4 +40,30 @@ n=5
 #         print('*',end='')
 #     print()
 
-        
+
+num = int(input("Enter row number: "))
+# i=1
+# while i<=num:
+#     print("*"*num)
+#     i+=1
+
+# while i<=num:
+#     print("*"*i+" "*(n-i))
+#     i+=1
+
+
+# while i<=num:
+#     print(" "*(n-i)+"* "*i)
+#     i+=1
+
+
+i=0
+while i<num:
+    # print('*'*(n-i)+" "*i)
+    # print(" "*i+"*"*(n-i))
+    # print(" "*i+"* "*(n-i))
+    i+=1
+
+
+   
+    
