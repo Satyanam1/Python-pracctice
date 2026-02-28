@@ -81,3 +81,70 @@ print(secondLargest(listt))  """
 a=input("Enter string: ")
 len(a) """
 
+
+# without argument, without return 
+# def hey():
+#     print("hello")
+# hey() 
+
+# def hello(x=10,y=20):
+#     print(x+y)
+# hello()       
+
+
+# without argument with return
+
+# def hi():
+#     return "Hello"
+# print(hi())
+# res=hi()
+# print(res)
+
+# def hi(x=10,y=20):
+#     return x+y
+# print(hi())
+# res = hi()
+# print(res)
+
+# with argument with return
+""" def name(x):
+    return 'welcome'+' '+x
+x=input("Enter name: ")
+faa=name(x)
+print(faa) """
+
+
+# with argument without return
+# def name(x):
+#     print("welcome"+' '+x)
+# x=input("Enter name: ")
+# name(x)
+
+# def demo(z,y,x):
+#     print(x,y,z)
+# p=int(input("Enter first number: "))    
+# q=int(input("Enter second number: "))    
+# r=int(input("Enter third number: "))  
+# demo(p,q,r) 
+# demo()   #error-- missing 3 arguments
+# demo(p)
+# demo(p,q)
+
+# default argument
+""" def demo(z=0,y=0,x=0,a=0,b=0):
+    print(x,y,z,b,a)
+p=int(input("Enter first number: "))    
+q=int(input("Enter second number: "))    
+r=int(input("Enter third number: "))  
+s=int(input("Enter fourth number: "))  
+t=int(input("Enter fifth number: "))  
+demo(p,q,r,s,t) """ 
+
+
+# variable length positional arguments(*args)
+def add(*args):
+    print(args)
+    print(type(args))
+add(1,2,3,4,5,6)    
+
+
