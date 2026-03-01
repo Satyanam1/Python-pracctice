@@ -25,7 +25,7 @@ This repository contains my personal Python learning and practice files.
 ## Functions✅
   - user defined
   - Built-in/Predefine
-
+  - Positional Arguments
 ## Practice 
 - Pattern Programs
 

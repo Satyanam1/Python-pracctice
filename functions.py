@@ -59,7 +59,7 @@ converter(100) """
     print("My",animal+ "'s name is ",name,"she is",age,"year's old")
 my_function("Pet","Evaa",2) """
 
-# factorial
+# fibonacci
 """ def fibonacci(num):
     fe=0
     se=1
@@ -69,7 +69,7 @@ my_function("Pet","Evaa",2) """
 fibonacci(4) """        
 
 
-# Palindrom 
+# Palindrome 
 """ def palindrome(n):
     rev=0
     copy = n
@@ -83,6 +83,8 @@ fibonacci(4) """
 a=int(input("enter a number: "))    
 palindrome(a) """ 
 
+
+
 # Armstrong
 """ def Armstrong(n):
     num = str(n)
@@ -94,7 +96,9 @@ palindrome(a) """
         print("Armstrong")
     else: 
         print("Not an Armstrong")  
-Armstrong(4) """        
+Armstrong(4) """ 
+
+
 
 # Reverse a list using functions
 """ def reverse(list):
@@ -208,21 +212,28 @@ a=int(input("Enter a number: "))
 print(reduceToZero(a)) """ 
 
 # Count operation to obtain zero
-""" def countZero(num1,num2):
+
+
+""" def CountOperation(num1,num2):
     count=0
     while num1!=0 and num2!=0:
         if num1>=num2:
-            num1= num1-num2
+            num1=num1-num2
         else:
             num2=num2-num1
-           
-        
         count+=1
-    return count
-a= int(input("Enter first number: "))
-b= int(input("Enter second number: "))  
-print(countZero(a,b))           """
 
+    return count
+
+a=int(input("Enter first Number: "))
+b=int(input("Enter second Number: "))
+print(CountOperation(a,b))                        """
+     
+
+# Valid paranthesis
+
+  
+        
 
 
 
