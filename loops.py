@@ -463,5 +463,16 @@ while n>0:
     a,b=b,c
     n=n-1 """
 
+# for i in [1,2,3,4,5]:
+#     print(i+5)   
 
+# for i in "python":
+#     print(i)
+
+
+
+d={"name":"Satyam","age":23,"Quali":"B.tech"}
+
+for k,v in d.items():
+    print("keys =",k,",","values =",v)
 

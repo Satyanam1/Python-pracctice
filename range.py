@@ -63,3 +63,7 @@
 #     print("Not palindrome")    
    
 
+print(list(range(1,11)))
+print(list(range(-1,-11,-1)))
+print(list(range(2,2)))   # It'll return Empty list
+print(range(1,10)) # It'll return as it is
