@@ -142,9 +142,73 @@ demo(p,q,r,s,t) """
 
 
 # variable length positional arguments(*args)
-def add(*args):
+""" def add(*args):
     print(args)
     print(type(args))
-add(1,2,3,4,5,6)    
+add(1,2,3,4,5,6)     """
+
+""" x=10
+def new():
+    print(x)
+    y=10
+new()
+print(x)
+print(y) """    
+    
+""" x=10 # Global variable
+def first():
+    print(x)
+    y=10 # Local Variable
+    def second():
+        print(y)  
+    second()      
+first() """
+
+""" x=10
+def first():
+    print(x)
+    global y
+    y=20
+first()
+print(y)     """
+
+""" x=10
+def modify():
+    global x
+    x=int(input("enter updated value: "))
+print(x)
+modify()
+print(x) """    
 
 
+
+""" x=10
+def new():
+    print(x)
+    x=20  # error unbound local
+new()  """ 
+
+""" x=10
+def new():
+    x=20
+    print(x) # o/p - 20
+    print(globals()['x']) # o/p - 10
+new()     """
+
+
+x=10
+def new():
+    global x
+    print(globals()['x'])
+    x=20
+new()    
+
+# nonlocal scope
+""" def new():
+    x=10
+    def first():
+        nonlocal x
+        x=20
+    first()
+    print(x)    
+new() """
