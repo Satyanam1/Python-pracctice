@@ -29,6 +29,7 @@ print(new_data)
 with open("practice.txt",'w') as f:
     f.write(new_data) """
 
+
 """ def tablegenerator(n):
     table=""
     for i in range(1,11):
@@ -37,3 +38,21 @@ with open("practice.txt",'w') as f:
         f.write(table)
 for i in range(2,31):
     tablegenerator(i)             """
+
+
+
+""" words =["Donkey","gande","bad"]
+with open("file.txt",'r') as f:
+    data = f.read()
+    
+for word in words:
+    data = data.replace(word,'#'*len(word)) 
+with open("file.txt",'w') as f:
+    f.write(data) """
+
+
+""" with open("log.txt",'r') as f:
+    data = f.read()
+if("python" in data):
+    print("Yes python present in log file")
+else: print("no python is not present")      """
