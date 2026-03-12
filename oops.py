@@ -25,9 +25,22 @@ print(res) """
 
 # reduce
 
-l=[1,2,3,4,5]
+""" l=[1,2,3,4,5]
 def add (sum,x):
     return sum+x
 res=reduce(add,l)
 res=reduce(add,l,0)
-print(res)
+print(res) """
+
+# Square
+""" n= int(input("Enter the value: "))
+var = lambda x:x**2
+print(var(n)) """
+
+# Lambda Function
+# lambda variable : if-result if condition else else-result 
+
+# lambda with map
+""" l= eval(input("Enter list: "))
+res= list(map(lambda n: n**2,l))
+print(res) """
