@@ -34,7 +34,8 @@ This repository contains my personal Python learning and practice files.
 ## Advanced Python
  
 ## Higher order function
- 
+## Lambda function
+ - lambda with map 
 
 
 
