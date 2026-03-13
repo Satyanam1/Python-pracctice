@@ -44,3 +44,21 @@ print(var(n)) """
 """ l= eval(input("Enter list: "))
 res= list(map(lambda n: n**2,l))
 print(res) """
+
+# maximum value
+""" from functools import reduce
+l=[1,12,3,4,5]
+res=reduce(lambda x,y:x if x>y else y,l)
+print(res) """
+
+# Decorator - Change the behaviour
+
+def  outer(var):
+    def inner():
+        var() / show()
+    return inner
+def show():
+    print("From show function")    
+res =outer(show)  
+
+
