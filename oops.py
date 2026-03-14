@@ -53,12 +53,19 @@ print(res) """
 
 # Decorator - Change the behaviour
 
-def  outer(var):
+""" def  outer(var):
     def inner():
         var() / show()
     return inner
 def show():
     print("From show function")    
-res =outer(show)  
+res =outer(show)   """
 
-
+# Object and class
+# syntax
+""" class class_name:
+    "doc string"
+    variable
+    method
+object = class_name()
+obj =class_name """    
