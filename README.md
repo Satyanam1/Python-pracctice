@@ -39,4 +39,6 @@ This repository contains my personal Python learning and practice files.
  - Decorator
 
 ## OOPS
-
+ - Objects / Classes 
+ - Multiple objects
+ - delete objects
