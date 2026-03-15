@@ -61,11 +61,31 @@ def show():
     print("From show function")    
 res =outer(show)   """
 
-# Object and class
-# syntax
-""" class class_name:
-    "doc string"
-    variable
-    method
-object = class_name()
-obj =class_name """    
+# Objects / Classes
+"""  Python is an object oriented programming languages.
+Create a Class
+To create a class, use the keyword class: """
+class Myclass:
+    x=5
+
+# create object
+# now we can use the class named myclass to create objects:
+p1=Myclass()
+print(p1.x)
+
+
+# Delete objects
+# We can delete objects by using del keyword:
+
+del p1
+
+# Multiple objects
+# We can create the multiple objects from the same class:
+
+p1=Myclass()
+p2=Myclass()
+p3=Myclass()
+
+print(p1.x)
+print(p2.x)
+print(p3.x)
