@@ -115,3 +115,19 @@ print(p1.name, p1.age)
 print(p2.name, p2.age) """
 
 
+# Self Parameter 
+# The self parameter is a reference to the current instance of the class.
+# It is used to access properties and methods that belong to the class.
+
+# use self to access class properties
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def greet(self):
+    print("Hello, my name is " + self.name)
+    print(f"I'm {self.age} Years old")
+
+p1 = Person("Satyanam", 23)
+p1.greet()
