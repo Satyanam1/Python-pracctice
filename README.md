@@ -43,3 +43,4 @@ This repository contains my personal Python learning and practice files.
  - Multiple objects
  - delete objects
  - __init__() method
+ - self parameter
