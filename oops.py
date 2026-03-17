@@ -120,7 +120,7 @@ print(p2.name, p2.age) """
 # It is used to access properties and methods that belong to the class.
 
 # use self to access class properties
-class Person:
+""" class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
@@ -130,4 +130,18 @@ class Person:
     print(f"I'm {self.age} Years old")
 
 p1 = Person("Satyanam", 23)
-p1.greet()
+p1.greet() """
+
+# Accessing properties with self 
+
+class Car:
+  def __init__(self, brand, model, year):
+    self.brand = brand
+    self.model = model
+    self.year = year
+
+  def display_info(self):
+    print(f"{self.year} {self.brand} {self.model}")
+
+car1 = Car("Toyota", "Corolla", 2020)
+car1.display_info()
