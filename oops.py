@@ -134,7 +134,7 @@ p1.greet() """
 
 # Accessing properties with self 
 
-class Car:
+""" class Car:
   def __init__(self, brand, model, year):
     self.brand = brand
     self.model = model
@@ -144,4 +144,44 @@ class Car:
     print(f"{self.year} {self.brand} {self.model}")
 
 car1 = Car("Toyota", "Corolla", 2020)
-car1.display_info()
+car1.display_info() """
+
+# Class properties
+
+# Properties are variable that belongs to a class. They store data for each object created from the class
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Satyanam", 23)
+
+print(p1.name)
+print(p1.age)
+
+# Access Properties -- using dot notation
+class Car:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+
+car1 = Car("Toyota", "Corolla")
+
+print(car1.brand)
+print(car1.model)
+
+# Delete Properties 
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Linus", 30)
+
+del p1.age
+
+print(p1.name)
+print(p1.age) # This will throw an error
+
