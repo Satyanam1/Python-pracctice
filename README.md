@@ -45,3 +45,4 @@ This repository contains my personal Python learning and practice files.
  - __init__() method
  - self parameter
  - Class properties
+    - delete properties
