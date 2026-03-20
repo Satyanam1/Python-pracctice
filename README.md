@@ -46,3 +46,4 @@ This repository contains my personal Python learning and practice files.
  - self parameter
  - Class properties
     - delete properties
+ - Class Methods   
