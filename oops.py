@@ -242,3 +242,30 @@ class Person:
 
 p1 = Person("Satyanam", 23)
 print(p1.get_info())
+
+
+# __str__() Method
+# The __str__() method is a special method that controls what is returned when the object is printed:
+
+# without __str__() method
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Emil", 36)
+print(p1)
+
+
+# with __str__() method
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def __str__(self):
+    return f"{self.name} ({self.age})"
+
+p1 = Person("Tobias", 36)
+print(p1)
+
