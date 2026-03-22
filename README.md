@@ -48,3 +48,4 @@ This repository contains my personal Python learning and practice files.
     - delete properties
  - Class Methods
    -  __str__() method   
+ - Inheritance  
