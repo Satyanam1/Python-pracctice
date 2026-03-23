@@ -270,7 +270,7 @@ p1 = Person("Tobias", 36)
 print(p1)
 
 # Inheritence 
-
+# parent child relationship
 # Inheritance allows us to define a class that inherits all the methods and properties from another class.
 # Parent class is the class being inherited from, also called base class.
 # Child class is the class that inherits from another class, also called derived class.
@@ -278,16 +278,95 @@ print(p1)
 # Create a parent class
 # Any class can be a parent class, so the syntax is same as creting any other class.
 
-class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
+# class Person:
+#   def __init__(self, fname, lname):
+#     self.firstname = fname
+#     self.lastname = lname
 
-  def printname(self):
-    print(self.firstname, self.lastname)
+#   def printname(self):
+#     print(self.firstname, self.lastname)
 
 #Use the Person class to create an object, and then execute the printname method:
 
-x = Person("Satyanam", "Ray")
-x.printname()
+# x = Person("Satyanam", "Ray")
+# x.printname()
+
+
+""" class parent:
+  x=10
+  def home(self):
+    print("home from parent class")
+class child(parent):
+  pass
+obj=child()
+print(obj.x)
+obj.home()     """
+
+# Multilevel inheritance
+#  
+""" class A:
+  def home(self):
+    print("Hoem from gp")
+class B(A):
+
+  def home(self):
+    print("Home from Parent")
+    super().home()
+
+  def car(self):
+    print("car from parent")      
+class C(B):
+   pass 
+
+obj=C()
+obj.home()
+obj.car() """
+
+# Multiple Inheritance
+
+""" class A:
+  def home(self):
+    print("Home from A")
+class B:
+  def home(self):
+    print("home from b")
+    A().home()
+  def car(self):
+    print("car from b")
+class C(B,A):
+  pass
+
+obj = C()
+obj.home()
+obj.car() """
+
+# Heirarchical Inheritance
+
+class A:
+  def home(self):
+    print("Hey, Python")
+  def about(self):  
+    print("Hi, I'm satyanam")
+class B(A):
+  pass
+class C(A):
+  pass  
+
+obj = B()
+obj2=C()
+
+obj.home()
+obj.about()
+
+# obj2.home()
+# obj2.about()
+
+
+# Hybriud Inheritance
+
+class A:
+  def home(self):
+    print("hello")
+  def about(self):
+    print()  
 
