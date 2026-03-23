@@ -49,3 +49,6 @@ This repository contains my personal Python learning and practice files.
  - Class Methods
    -  __str__() method   
  - Inheritance  
+   - single inheritance
+   - multiple inheritance
+   - 
