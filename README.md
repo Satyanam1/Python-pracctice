@@ -50,7 +50,10 @@ This repository contains my personal Python learning and practice files.
    -  __str__() method   
  - Inheritance  
    - single inheritance
+   - Multilevel Inheritance
    - multiple inheritance
-   -
+   - Heirarchical Inheritance
+   - Hybrid Inheritance
+   - 
  - Abstraction
  - Encapsulation   
