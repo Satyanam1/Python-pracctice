@@ -51,4 +51,6 @@ This repository contains my personal Python learning and practice files.
  - Inheritance  
    - single inheritance
    - multiple inheritance
-   - 
+   -
+ - Abstraction
+ - Encapsulation   

@@ -186,7 +186,7 @@ print(p1.name)
 # print(p1.age) # This will throw an error
 
 # Add new properties
-class Person:
+""" class Person:
   def __init__(self, name):
     self.name = name
 
@@ -197,13 +197,13 @@ p1.city = "Oslo"
 
 print(p1.name)
 print(p1.age)
-print(p1.city)
+print(p1.city) """
 
 # Class Methods
 # Methods are functions that belongs to a class. They define the behaviour of objects created from the class
 
 # cretee a method inn class 
-class Person:
+""" class Person:
   def __init__(self, name):
     self.name = name
 
@@ -211,12 +211,12 @@ class Person:
     print("Hello, my name is " + self.name)
 
 p1 = Person("Satyanam")
-p1.greet()
+p1.greet() """
 
 # Methods with Parameters
 # Methods can accept parameters just like regular functions
 
-class Calculator:
+""" class Calculator:
   def add(self, a, b):
     return a + b
 
@@ -225,14 +225,14 @@ class Calculator:
 
 calc = Calculator()
 print(calc.add(5, 3))
-print(calc.multiply(4, 7))
+print(calc.multiply(4, 7)) """
 
 
 # Methos accessing properties
 # Methods can access and modify object properies using self
 # A method that accesses object properties:
 
-class Person:
+""" class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
@@ -241,24 +241,24 @@ class Person:
     return f"{self.name} is {self.age} years old"
 
 p1 = Person("Satyanam", 23)
-print(p1.get_info())
+print(p1.get_info()) """
 
 
 # __str__() Method
 # The __str__() method is a special method that controls what is returned when the object is printed:
 
 # without __str__() method
-class Person:
+""" class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
 
 p1 = Person("Emil", 36)
-print(p1)
+print(p1) """
 
 
 # with __str__() method
-class Person:
+""" class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
@@ -267,7 +267,7 @@ class Person:
     return f"{self.name} ({self.age})"
 
 p1 = Person("Tobias", 36)
-print(p1)
+print(p1) """
 
 # Inheritence 
 # parent child relationship
@@ -342,7 +342,7 @@ obj.car() """
 
 # Heirarchical Inheritance
 
-class A:
+""" class A:
   def home(self):
     print("Hey, Python")
   def about(self):  
@@ -356,7 +356,7 @@ obj = B()
 obj2=C()
 
 obj.home()
-obj.about()
+obj.about() """
 
 # obj2.home()
 # obj2.about()
@@ -364,9 +364,48 @@ obj.about()
 
 # Hybriud Inheritance
 
-class A:
+""" class A:
   def home(self):
     print("hello")
   def about(self):
-    print()  
+    print()   """
 
+# Abstraction
+
+from abc import ABC, abstractmethod
+# class Calculator(ABC):
+#   @abstractmethod
+#   def register(self):
+#     pass
+# class B(Calculator):
+#   def register(self):
+#     return super().register()
+#     print("hello")
+# obj = B()
+
+""" class Calculator(ABC):
+  def add(self,*n):
+    sum = 0
+    for i in n:
+      sum+=i
+    print(sum)
+  @abstractmethod
+  def division(self):
+    pass
+  def multi(self):
+    pass
+class A(Calculator):
+  def multi(self,*n):
+    multi = 1
+    for i in n:
+      multi*=i
+    print(multi) 
+  def division(self):
+    pass   
+obj = A()
+obj.add(1,2,3,4,5)
+obj.multi(1,2,3)       """
+
+# Encapsulation
+
+        
