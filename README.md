@@ -57,3 +57,7 @@ This repository contains my personal Python learning and practice files.
    - 
  - Abstraction
  - Encapsulation   
+ - Polymorphism
+   - Function Polymorphism
+   - Operator polymorphism
+   - Method Polymorphism
