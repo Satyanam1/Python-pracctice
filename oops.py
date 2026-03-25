@@ -71,7 +71,7 @@ class Myclass:
 # create object
 # now we can use the class named myclass to create objects:
 p1=Myclass()
-print(p1.x)
+# print(p1.x)
 
 
 # Delete objects
@@ -82,13 +82,13 @@ del p1
 # Multiple objects
 # We can create the multiple objects from the same class:
 
-p1=Myclass()
+""" p1=Myclass()
 p2=Myclass()
 p3=Myclass()
 
 print(p1.x)
 print(p2.x)
-print(p3.x)
+print(p3.x) """
 
 # __init__() method
 # The __init__() method is used to assign values to object properties, or to perform operations that are necessary when the object is being created.
@@ -150,7 +150,7 @@ car1.display_info() """
 
 # Properties are variable that belongs to a class. They store data for each object created from the class
 
-class Person:
+""" class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
@@ -166,9 +166,9 @@ class Car:
     self.brand = brand
     self.model = model
 
-car1 = Car("Toyota", "Corolla")
+car1 = Car("Toyota", "Corolla") """
 
-print(car1.brand)
+""" print(car1.brand)
 print(car1.model)
 
 # Delete Properties 
@@ -182,7 +182,7 @@ p1 = Person("Linus", 30)
 
 del p1.age
 
-print(p1.name)
+print(p1.name) """
 # print(p1.age) # This will throw an error
 
 # Add new properties
@@ -202,7 +202,7 @@ print(p1.city) """
 # Class Methods
 # Methods are functions that belongs to a class. They define the behaviour of objects created from the class
 
-# cretee a method inn class 
+# create a method inn class 
 """ class Person:
   def __init__(self, name):
     self.name = name
@@ -408,4 +408,45 @@ obj.multi(1,2,3)       """
 
 # Encapsulation
 
-        
+
+# Private variable/ method
+
+class student:
+  __school='KDKN Secondary School'
+  def __detail(self):
+    print("Hey, I'm satyanam")
+class A(student):
+  pass
+
+obj = A()
+print(student._student__school)
+# obj._student__detail()
+# print(dir(student))
+
+# Polymorphism
+ 
+# OperAtor Polymorphism
+
+x=5
+y=2
+z=x*y
+print(z)
+
+# Function Polymorphism
+s="Satyanam"
+print(len(s)) # length = 8
+
+s=["Satyanam"]
+print(len(s))  # length = 1
+
+# Method Polymorphism
+class A:
+   def first(self):
+      print("Hey")
+class B:
+   def second(self):
+      print("Second")
+                    
+obj = A()
+obj.first() 
+                   
